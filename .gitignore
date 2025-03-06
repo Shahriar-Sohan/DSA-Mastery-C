@@ -1,0 +1,17 @@
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled binary executables
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Ignore CMake build directories
+CMakeFiles/
+CMakeCache.txt
+
+# Ignore Makefile-generated binaries
+build/
