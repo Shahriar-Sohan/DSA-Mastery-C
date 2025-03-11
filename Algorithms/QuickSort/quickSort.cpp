@@ -3,8 +3,6 @@
 
 using namespace std;
 
-
-
 int partition(vector<int>&array, int low, int high){
     int pivot = array[high];
     int i = low - 1;
@@ -40,6 +38,5 @@ int main(){
         cout << num << " ";
     }
     cout << endl;
-
     return 0;
 }
